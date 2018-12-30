@@ -21,8 +21,8 @@ public class FileGetter {
      static void RecursivePrint(String path,PrintWriter out)  
      { 
          String host="localhost";
-	    String user="pranav";
-	    String password="Login!@34";
+	    String user="testssh";
+	    String password="test@123";
             out.println(path);
 	    String command1="tree -dH baseHREF -L 1 "+path;
 	    try{
